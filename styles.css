@@ -1,0 +1,116 @@
+body {
+  max-width: 800px;
+  margin: auto;
+  font-family: sans-serif;
+}
+
+h2 {
+  text-transform: uppercase;
+  margin-top: 64px;
+}
+
+footer {
+  padding: 100px;
+  text-align: center;
+}
+
+/* ================
+==== VARIANT 1 ====
+===================*/
+
+body .variant--1 .gist .gist-file {
+  margin-bottom: 0;
+  border: 1px dashed #adb5bd;
+  border-radius: 0;
+}
+
+body .variant--1 .gist .gist-data {
+  border-bottom: none;
+  border-radius: 0;
+  background-color: #f1f3f5;
+}
+
+body .variant--1 .gist .blob-wrapper {
+  border-radius: 0;
+}
+
+body .variant--1 .gist .highlight {
+  background-color: transparent;
+  font-family: 'Droid Sans Mono', monospace;
+  font-size: 14px;
+}
+
+body .variant--1 .gist .highlight td {
+  padding: 5px 15px !important;
+  line-height: 1;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+body .variant--1 .gist tr:first-child td {
+  padding-top: 15px !important;
+}
+
+body .variant--1 .gist tr:last-child td {
+  padding-bottom: 15px !important;
+}
+
+body .variant--1 .gist .blob-num {
+  color: #ced4da;
+  background-color: #495057;
+  pointer-events: none;
+}
+
+body .variant--1 .gist .gist-meta {
+  display: none;
+}
+
+/* ================
+==== VARIANT 2 ====
+===================*/
+body .variant--2 .gist .gist-file {
+  position: relative;
+  margin-bottom: 0;
+  border-radius: 0;
+  border: none;
+  border-left: 4px solid #b4cddd;
+}
+
+body .variant--2 .gist .gist-data {
+  border: none;
+  border-radius: 0;
+  background-color: #f1f5f7;
+}
+
+body .variant--2 .gist .blob-wrapper {
+  border-radius: 0;
+}
+
+body .variant--2 .gist .highlight {
+  background-color: transparent;
+  font-family: 'Droid Sans Mono', monospace;
+  font-size: 14px;
+}
+
+body .variant--2 .gist .highlight td {
+  padding: 5px 15px !important;
+  line-height: 1;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+body .variant--2 .gist tr:first-child td {
+  padding-top: 15px !important;
+}
+
+body .variant--2 .gist tr:last-child td {
+  padding-bottom: 15px !important;
+}
+
+body .variant--2 .gist .blob-num {
+  display: none;
+}
+
+body .variant--2 .gist .gist-meta {
+  display: none;
+}
